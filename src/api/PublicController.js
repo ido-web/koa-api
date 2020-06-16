@@ -17,6 +17,7 @@ class PublicController {
 			color: true, // 验证码的字符是否有颜色，默认没有，如果设定了背景，则默认有
 			background: '#eee' // 验证码图片背景颜色
 		})
+		
 		ctx.body = {
 			code: 200,
 			data: newCaptcha.data,
